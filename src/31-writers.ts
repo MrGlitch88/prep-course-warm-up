@@ -35,3 +35,10 @@ const writers = [
     alive: true
   }
 ];
+
+function loop(arr:any) {
+  var out:string = "";
+ arr.forEach((e:any) => { out += `Hi, my name is ${e.firstName} ${e.lastName}. I am ${e.age} years old, and work as a ${e.occupation}.\n`; })
+ return out;
+ }
+ console.log(loop(writers));

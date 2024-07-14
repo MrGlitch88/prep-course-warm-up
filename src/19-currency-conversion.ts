@@ -15,9 +15,9 @@ export {};
  */
 
 // You are allowed to change this function
-function convertToUSD(price) {}
+function convertToUSD(price: number) {}
 // You are allowed to change this function
-function convertToBRL(price) {}
+function convertToBRL(price: number) {}
 
 const product = "You don't know JS";
 const price = 12.5;

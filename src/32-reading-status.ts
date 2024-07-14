@@ -18,7 +18,7 @@ const library = [
   }
 ];
 
-const showStatus = () => {};
+const showStatus = (arr: string) => {};
 
 showStatus(library);
 

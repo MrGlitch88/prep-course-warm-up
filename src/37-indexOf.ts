@@ -9,7 +9,6 @@ export {};
 
 // You are allowed to edit only this function
 function remove(arr, valueToRemove) {}
-
 const numbers = [1, 2, 3];
 const names = ["John", "Alice", "Ellen"];
 

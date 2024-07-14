@@ -9,7 +9,11 @@ export {};
  *  - https://www.youtube.com/watch?v=Kn06785pkJg (JavaScript Loops Made Easy)
 */
 
-function goThroughNumbers(start, end) {}
+function goThroughNumbers(start: number, end: number) {
+    for (let i = 0; i < 13; i++) {
+        console.log(i)
+    }
+}
 
 goThroughNumbers(3, 7);
 /* Expected output:

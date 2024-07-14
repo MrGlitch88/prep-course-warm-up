@@ -12,7 +12,9 @@ export {};
  */
 
 const helloWorld = function() {
-  return "";
+  return "Hello World!";
 };
 
-console.log(); // Expected output: "Hello World"
+const result = helloWorld()
+
+console.log(result); // Expected output: "Hello World"

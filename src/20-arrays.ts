@@ -7,5 +7,14 @@ export {};
  *  - https://www.w3schools.com/js/js_arrays.asp
  *  - https://javascript.info/array
  */
+function stringToArray(arr: string[]) {
+    const names: string[][] = [];
+    for (let i = 0; i < arr.length; i++) {
+        const fullName = arr[i];
+        names.push(fullName.split(" "));
+    }
+
+    return names.flat();
+}
 
 console.log(stringToArray(["John Doe"])); // Expected output: ['John', 'Doe']

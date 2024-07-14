@@ -11,11 +11,15 @@ export {};
  *  - https://www.youtube.com/watch?v=YOlr79NaAtQ (What is THIS in JavaScript? in 100 seconds)
  */
 
-function Circle(radius) {
-  this.radius = radius;
-  this.area = function() {};
-  this.perimeter = function() {};
+class Circle {
+  radius: number;
+  constructor(radius: number) {
+    this.radius = radius;
+  }
+  area() { return (Math.PI*(Math.pow(this.radius,2))).toFixed(2);}; 
+  perimeter() { return (2*Math.PI*this.radius).toFixed(2); }; 
 }
+
 
 const c = new Circle(3);
 console.log("Area =", c.area()); // Expected output: Area = 28.27

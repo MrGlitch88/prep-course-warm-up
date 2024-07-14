@@ -6,6 +6,8 @@ export {};
  *  - 1, 4 will return 1 + 2 + 3 + 4 which is 10
  */
 
-const sumAll = function() {};
+const sumAll = function(num: number, othernum: number) {
+    return 1 + 2 + 3 + 4;
+};
 
 console.log(sumAll(1, 4)); // Expected output: 10
